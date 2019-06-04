@@ -10,22 +10,107 @@
   margin: auto;
 }
 
-header {
-  background: lightblue;
-  height: 500px;
-}
-
-nav {
-  height: 100px;
-}
-
 .navbar1 {
-  background: gray;
+  height: 60px;
+  background: #F5F8FA;
+  border-bottom: solid 1px black;
+}
+
+.menu-sx li, a {
+  display: inline-block;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: verdana;
+  font-size: 20px;
+  color: #33475B;
+  /* padding-left: 15px; */
+}
+
+#globe {
+  width: 20px;
+  height: auto;
+}
+
+#search {
+  width: 20px;
+  height: auto;
+}
+
+#navbutton {
+  padding: 5px 25px;
+  font-size: 20px;
+  color: white;
+  background-color: #FF7A59;
+  border: none;
 }
 
 .navbar2 {
+  height: 60px;
   background: white;
 }
+
+#logo {
+  width: 100px;
+  height: auto;
+  float: left;
+}
+
+.menu-dx-logo li {
+  display: inline-block;
+  float: left;
+  padding-left: 2%;
+}
+
+header {
+  position: relative;
+  background: #00A1BB;
+  height: 600px;
+  background-image: url("immagini/head-cover.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  z-index: 1;
+}
+
+.head-title {
+  position: absolute;
+  top: 15%;
+  color: white;
+  font-size: 50px;
+  font-family: verdana;
+  width: 30%;
+}
+
+.head-parag {
+  position: absolute;
+  top: 45%;
+  width: 30%;
+  line-height: 1.5;
+  color: white;
+  font-size: 16px;
+  font-family: verdana;
+}
+
+#head-button {
+  position: absolute;
+  top: 65%;
+  font-size: 18px;
+  font-family: verdana;
+  color: #33475B;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 20px 50px;
+}
+
+
+
+
+
+
+
+
+
 
 section {
   background: red;
