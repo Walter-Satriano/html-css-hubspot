@@ -1,0 +1,69 @@
+/* regole generali */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cont-center {
+  width: 80%;
+  margin: auto;
+}
+
+header {
+  background: lightblue;
+  height: 500px;
+}
+
+nav {
+  height: 100px;
+}
+
+.navbar1 {
+  background: gray;
+}
+
+.navbar2 {
+  background: white;
+}
+
+section {
+  background: red;
+  height: 200px;
+  border: solid 1px black;
+}
+
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.duecolonne {
+  background: white;
+  height: 100px;
+  border: solid 1px black;
+  width: calc(100%/2);
+  float: left;
+}
+
+.trecolonne {
+  background: white;
+  height: 100px;
+  border: solid 1px black;
+  width: calc(100%/3);
+  float: left;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  background: blue;
+  height: 400px;
+}
