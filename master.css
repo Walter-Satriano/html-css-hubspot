@@ -10,6 +10,13 @@
   margin: auto;
 }
 
+.row::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* navbar1 + navbar2 + header */
 .navbar1 {
   height: 60px;
   background: #F5F8FA;
@@ -104,33 +111,126 @@ header {
 }
 
 
-
-
-
-
-
-
-
-
+/* definizione delle section */
 section {
   background: red;
-  height: 200px;
+  /* height: 500px; */
   border: solid 1px black;
 }
 
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
+/* section colonna singola1 */
+.sez-singola-uno {
+  width: 65%;
+  background: #F5F8FA;
 }
 
-.duecolonne {
+.img-cubo {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 300px;
+  height: auto;
+  padding: 8% 0 2% 0;
+}
+
+.powerful {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: helvetica;
+  color: #33475B;
+}
+
+.offer {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 62%;
+  text-align: center;
+  font-size: 15px;
+  font-family: helvetica;
+  color: #33475B;
+  padding: 2% 0 5% 0;
+}
+
+/* section colonna singola2 */
+.sez-singola-due {
+  width: 65%;
   background: white;
-  height: 100px;
-  border: solid 1px black;
-  width: calc(100%/2);
-  float: left;
+    /* height: 300px; */
 }
+
+.img-book {
+  position: relative;
+  width: 320px;
+  height: auto;
+  float: left;
+  padding: 5% 0 2% 5%;
+}
+
+.free-hub {
+  position: relative;
+  left: 10%;
+  font-size: 20px;
+  font-family: helvetica;
+  color: #33475B;
+  padding-top: 8%;
+}
+
+.everything {
+  position: relative;
+  left: 10%;
+  width: 80%;
+  padding: 2% 0 2% 0;
+  font-size: 15px;
+  font-family: helvetica;
+  color: #33475B;
+}
+
+.popular {
+  position: relative;
+  left: 10%;
+  font-size: 16px;
+  font-family: helvetica;
+  text-transform: uppercase;
+  color: #33475B;
+  padding-bottom: 1.5%;
+}
+
+.style-list li{
+  position: relative;
+  left: 10%;
+  display: inline-block;
+  list-style-type: none;
+  font-size: 14px;
+  font-family: helvetica;
+  color: #33475B;
+  padding-right: 2%;
+}
+
+.spunta {
+  width: 18px;
+  height: auto;
+}
+
+.book-button {
+  position: relative;
+  left: 15%;
+  font-size: 14px;
+  font-family: helvetica;
+  font-weight: 600;
+  color: white;
+  background-color: #FF7A59;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-bottom: 2%;
+}
+
 
 .trecolonne {
   background: white;
@@ -139,13 +239,6 @@ section {
   width: calc(100%/3);
   float: left;
 }
-
-
-
-
-
-
-
 
 
 footer{
