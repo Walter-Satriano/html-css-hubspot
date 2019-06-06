@@ -36,7 +36,7 @@
   left: 55%;
 }
 
-.style-menu-sx .style-menu-dx, li{
+.style-menu-sx .style-menu-dx, .list-inline {
   display: inline-block;
 }
 
@@ -79,7 +79,7 @@ a{
   float: left;
 }
 
-.menu-dx-logo li {
+.menu-dx-logo .list-inline {
   position: relative;
   top: 22px;
   left: 43%;
@@ -132,7 +132,7 @@ header {
 
 
 /* definizione delle section */
-section {
+.background-section {
   background: #F5F8FA;
   padding-bottom: 2%;
   /* height: 500px; */
@@ -179,7 +179,6 @@ section {
 
 /* section colonna singola2 */
 .sez-singola-due {
-  /* height: 300px; */
   width: 70%;
   background: white;
   border-radius: 10px;
@@ -223,7 +222,7 @@ section {
   padding-bottom: 1.5%;
 }
 
-.style-list li{
+.style-list .list-inline {
   position: relative;
   left: 10%;
   display: inline-block;
@@ -261,7 +260,6 @@ section {
 }
 
 .trecolonne {
-  /* height: 700px; */
   background: white;
   border-radius: 10px;
   width: 32%;
@@ -269,10 +267,6 @@ section {
 }
 
 /* colonna sx */
-.colonnasx {
-
-}
-
 .column-img {
   position: relative;
   left: 50%;
@@ -329,7 +323,7 @@ section {
   padding-bottom: 7%;
 }
 
-.style-list-col li{
+.style-list-col li {
   list-style-type: none;
   font-size: 14px;
   font-family: helvetica;
@@ -358,10 +352,62 @@ section {
   padding-top: 2%;
 }
 
+/* sezione 2 contenuto centrato */
+.sez-singola-quattro {
+  background: #00AFB2;
+}
 
-/* colonna dx */
-.colonnadx {
+.learning {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70%;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  font-family: helvetica;
+  color: white;
+  padding-top: 5%;
+}
 
+.methodology {
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+  width: 70%;
+  text-align: center;
+  line-height: 1.5;
+  font-size: 20px;
+  font-family: helvetica;
+  color: white;
+  padding: 2% 0 5% 0;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  padding-bottom: 5%;
+}
+
+.grid-item {
+  border: 1px solid white;
+  text-align: center;
+  padding: 15% 0 15% 0;
+}
+
+.grid-numbers {
+  font-family: helvetica;
+  font-size: 60px;
+  color: white;
+  font-weight: 700;
+  padding: 5% 0 5% 0;
+}
+
+.grid-text {
+  font-family: helvetica;
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
 }
 
 
@@ -370,7 +416,12 @@ section {
 
 
 
-footer{
+
+
+
+
+
+footer {
   background: blue;
   height: 400px;
 }
