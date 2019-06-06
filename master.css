@@ -89,7 +89,6 @@ a{
 
 /* header */
 header {
-  position: relative;
   background: #00A1BB;
   height: 600px;
   background-image: url("immagini/head-cover.png");
@@ -100,26 +99,26 @@ header {
 }
 
 .head-title {
-  position: absolute;
-  top: 15%;
+  position: relative;
+  width: 40%;
   color: white;
   font-size: 50px;
   font-family: verdana;
-  width: 30%;
+  padding-top: 8%;
 }
 
 .head-parag {
-  position: absolute;
-  top: 45%;
+  position: relative;
   width: 30%;
   line-height: 1.5;
   color: white;
   font-size: 16px;
   font-family: verdana;
+  padding: 3% 0 5% 0;
 }
 
 #head-button {
-  position: absolute;
+  position: relative;
   top: 65%;
   font-size: 18px;
   font-family: verdana;
@@ -135,8 +134,6 @@ header {
 .background-section {
   background: #F5F8FA;
   padding-bottom: 2%;
-  /* height: 500px; */
-  /* border: solid 1px black; */
 }
 
 /* sezione 1 */
@@ -326,7 +323,6 @@ header {
 .style-list-col li {
   list-style-type: none;
   font-size: 14px;
-
   font-family: helvetica;
   color: #33475B;
 }
@@ -451,8 +447,6 @@ header {
 
 /* sezione 6 */
 .sez-sei {
-  /* height: 400px; */
-  /* border: solid 1px black; */
   background-color: white;
 }
 
@@ -504,14 +498,74 @@ header {
   margin-top: 6%;
 }
 
-
-
-
-
-
-
-
+/* footer */
 footer {
   background: #33475B;
-  height: 400px;
+  padding-top: 5%;
+}
+
+.quattro-colonne {
+  width: calc(100%/4);
+  float: left;
+}
+
+.list-footer {
+  position: relative;
+  line-height: 2.5;
+}
+
+.list-footer li, .link-footer {
+  list-style-type: none;
+  font-size: 16px;
+  font-family: helvetica;
+  color: #CBD6E2;
+  font-weight: 600;
+}
+
+h4 {
+  position: relative;
+  font-family: helvetica;
+  font-size: 18px;
+  color: white;
+  font-weight: 800;
+}
+
+.button-footer {
+  position: relative;
+  font-size: 12px;
+  font-family: helvetica;
+  font-weight: 600;
+  color: #33475B;
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  padding: 10px 25px;
+  cursor: pointer;
+  margin-top: 5%;
+}
+
+.icon-list {
+  padding-top: 4%;
+}
+
+.icon-list li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 3% 5% 10% 0;
+}
+
+.icon-size {
+  width: 30px;
+  height: auto;
+}
+
+.language-list {
+  position: relative;
+  text-align: center;
+}
+
+.language-list li {
+  display: inline-block;
+  list-style-type: none;
+  padding: 3% 5% 3% 0;
 }
